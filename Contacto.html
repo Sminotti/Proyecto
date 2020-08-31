@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Contactame</title>
+        <link rel="stylesheet" href="css/styles-Contacto.css"> <!-- se usa para linquear a la pagina externa -(ejemplo los CSS)- -->
+    </head>
+    <body>
+        <nav>
+            <center>
+            <a style="color: blue" href="index.html">          Principal</a>
+            <a style="color: blue" href="DatosPersonales.html">Dato personales</a>
+            <a style="color: blue" href="AlgoDeMiVida.html">   Algo de mi vida</a>
+            <a style="color: blue" href="contacto.html">       contacto</a> 
+            <br>
+            <br>
+            <br>        
+            </center>
+        </nav>
+        <!--method (como) / action (donde)-->
+        <!--Registro-->
+        <fieldset>
+            <legend>SOLICITUD DE PRESUPUESTO</legend>
+            <form method="POST" action="#"><!-- Formulario- ingreso de datos -->
+                <main>    
+                    <div class="EstiloCajas">     
+                        <div class=" pt">
+                            <fieldset > 
+                                <label class="EstiloLabel_1c" for="Nombre "> Ingrese sus datos</label>                                
+                                <input class=" EstiloImput"
+                                    type="text" 
+                                    name="Nombre completo"
+                                    id="Nombre Completo"
+                                    placeholder="Nombre Completo"
+                                    required 
+                                    autofocus>   <!-- id="" enlaza con la casilla de texto-->  <!-- <p>Ingrese NOmbre Completo</p>-->                             
+                                <input class=" EstiloImput"
+                                    type="text" 
+                                    name="Apellido"
+                                    id="Apellido"
+                                    placeholder="Apellido"
+                                    required> <!--<input type="text" value="Nombre Completo"><no desaparece,lo tenes que borrar>-->
+                                    <br>
+                                    <label  class="EstiloLabel1_2c" for="Apellido">Apellido *</label> <!-- el for se enlaza con el id y quedan anidados-->
+                                    <label  style="margin-left: 195px;" for="Nombre "> Nombre *</label>
+                                    <!-- el for se enlaza con el id y quedan anidados-->
+                            </fieldset>    
+                        </div>   
+                    </div>
+                        
+                    <div class="EstiloCajas">
+                        <div class=" pt">       
+                            <fieldset>
+                                <label class="EstiloLabel_1c" for="Nombre "> Registrese</label>
+                                <input class=" EstiloImput"
+                                    type="email" 
+                                    name="correo"
+                                    id="correo"
+                                    placeholder="foo@example.com" 
+                                    required>      
+                                <input class=" EstiloImput"
+                                    type="password" 
+                                    name="Contraseña" 
+                                    id="Contraseña"
+                                    required>
+                                    <br>
+                                    <label  class="EstiloLabel1_2c" for="correo">Correo Electronico</label> <!-- el for se enlaza con el id y quedan anidados-->
+                                    <label  style="margin-left: 140px;" for="Contraseña">Contraseña</label> 
+                            </fieldset>
+                        </div> 
+                    </div>
+                
+                    <div class="EstiloCajas">
+                        <div class=" pt"> 
+                            <fieldset>
+                                <label class="EstiloLabel_1c" for="Nombre "> Ingrese Numero de Celular</label>
+                                <input class=" EstiloImput"
+                                    type="number"
+                                    name="CodDeArea"
+                                    id="CodDeArea"
+                                    placeholder="011">
+                                    <input class=" EstiloImput"
+                                    type="tel"
+                                    name="telefono"
+                                    id="Telefono"
+                                    placeholder="Telefono">
+                                    <br>
+                                    <label  class="EstiloLabel1_2c" for="CodDeArea">Cod. de Area</label>
+                                    <label  style="margin-left: 180px;" for="Telefono">Num de movil sin el 15</label>
+                            </fieldset>    
+                        </div>           
+                    </div>
+                   
+                    <div class="EstiloCajas">
+                        <div class=" pt">
+                            <fieldset>
+                                <label class="EstiloLabel_1c" for="Nombre "> Ingrese Nacionalidad</label> 
+                                    <select style="margin: .4rem;" id="Nacionalidad" name="Nacionalidad" style="min-width: 240px;" class="EstiloImput"> 
+                                        <option selected disabled>Eleji tu pais</option><!--se ve pero aparece desabilitado-->
+                                        <option value="Arg">Argentina</option>
+                                        <option value="Bra">Brasil</option>
+                                        <option value="Uru">Uruguay</option>
+                                        <option value=""></option><!-- para no tipear todos los paises ,se consulta por una api que ya esta todo-->
+                                    </select>
+                                    <select  id="Ciudad" name="Ciudad" style="min-width: 240px;" class="EstiloImput"> 
+                                        <option class="EstiloImput" selected disabled>Eleji tu Ciudad</option><!--se ve pero aparece desabilitado-->
+                                        <option value="Arg">Buenos Aires</option>
+                                        <option value="Bra">San Juan</option>
+                                        <option value="Uru">Catamarca</option>
+                                        <option value=""></option><!-- para no tipear todos los paises ,se consulta por una api que ya esta todo-->
+                                    </select>
+                                        <br>
+                                        <label  class=" EstiloLabel1_2c" for="Nacionalidad">Nacionalidad *</label>
+                                        <label  for="Ciudad">Ciudad</label>
+                            </fieldset>
+                        </div>
+                    </div>
+                    
+                        <div class="EstiloCajas">
+                            <div class=" pt">
+                                <fieldset> 
+                                    <label class="EstiloLabel_1c" for="Nombre "> Ingrese sexo</label> 
+                                    <input  type="radio"   id="sexo" name="sexo" />Hombre
+                                    <input  type="radio"   id="sexo" name="sexo" />Mujer
+                                    <br>
+                                    <label  class="EstiloLabel1_2c" for="sexo" *>sexo</label>
+                                </fieldset>
+                            </div>
+                        </div>
+
+                        <div class="EstiloCajas">
+                            <div class=" pt">  
+                                <fieldset>
+                                    <label class="EstiloLabel_1c" for="Nombre "> Ingrese Fecha de Nacimiento</label>        
+                                    <input type="date" class=" EstiloImput">
+                                    <br>
+                                    <label  class="EstiloLabel1_2c" for="Fecha de nacimiento">Fecha de nacimiento</label>
+                                </fieldset>
+                            </div>
+                        </div>
+                    
+                        <div class="EstiloCajas">
+                            <div class=" pt">   
+                                <fieldset>
+                                    <label class="EstiloLabel_1c" for="Nombre "> Ingrese Foto de perfil</label>         
+                                    <input type="file">
+                                    <br>
+                                    <label   class="EstiloLabel1_2c" for="imagen">Ingresa tu foto de perfil</label>
+                                </fieldset>
+                            </div>
+                        </div>
+                    
+                        <div class="EstiloCajas">                   
+                            <div class=" pt">  
+                                <fieldset>
+                                    <label class="EstiloLabel_1c" for="Nombre "> Pregunta de recuperacion</label>        
+                                    <input type="color">        
+                                    <br>
+                                    <label class="EstiloLabel1_2c" for="color">Cual es tu color favorito?</label>
+                                </fieldset>
+                            </div>
+                        </div>
+                    
+                        <div class="EstiloCajas" >                                
+                            <div class=" pt">
+                                <fieldset>
+                                    <!--se usa para comentarios,se le da la cant de filas y columnas que queremos-->
+                                    <label class="EstiloLabel_1c" for="Nombre "> Comentenos Brevemente</label> 
+                                    <textarea style="margin-left: 10px;" name="Comentario" rows="5" cols="55"></textarea>
+                                    <br>
+                                    <label  class="EstiloLabel1_2c" for="Comentario">Comentario</label>
+                                </fieldset>
+                            </div>
+                        </div>
+                                <!--BOTONES submit,enviar-->
+                                <br>
+                                <br>
+
+                                <button type="reset">Limpiar Formulario-</button>
+                                <button type="button">boton inutil</button><!--le haces hacer lo que quieras-->
+                                <button>Registrate</button>
+                                <br>
+                                <br>
+                </main>
+            </form>
+        </fieldset> 
+        <br>
+        <br>
+        <footer>
+            <small>&copy;2020 Argentina</small>
+        </footer>    
+    </body>
+</html>
