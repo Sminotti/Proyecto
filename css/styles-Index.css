@@ -20,3 +20,13 @@ body{
     width: 18rem;
     margin-bottom:10px ;
 }
+
+.ColorFonts{
+    color: #998561;
+}
+.BotonesFlotantes {
+    position: absolute;
+    left: 10px;
+    top: 250px;
+
+}

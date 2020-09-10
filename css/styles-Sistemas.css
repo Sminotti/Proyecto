@@ -3,3 +3,9 @@ body{
     background-size: cover; /* se cambia de tamaño segun el espacio que tenga*/
    
  }
+ .BotonesFlotantes {
+    position: absolute;
+    left: 10px;
+    top: 250px;
+
+}

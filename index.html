@@ -6,43 +6,44 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
     integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <!--ICONOS-->
   <script src="https://kit.fontawesome.com/3ad4085611.js" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="css/styles-Index.css" />
 
-  <title>Document</title>
+  <title>SMS ServiciosInformaticos</title>
 </head>
 
-<body>
-  <div class="fixed-top">
-    <!--NAVBAR-->
-    <div class="collapse" id="navbarToggleExternalContent">
-      <div class=" p-0">
-        <!--<h5 class="text-white h4">Collapsed content</h5>
-            <span class="text-muted">Toggleable via the navbar brand.</span>-->
-        <div class="card " style="background: black;">
-          <div class="card-header">
-            <ul>
-              <li class="nav-item">
-                <a class="nav-link" href="Index.html">Pagina principal</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="Sistemas.html">Desarrollo de sistemas y paginas WEB</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="ReparacionPc.html" tabindex="-1" aria-disabled="true">Servicio tecnico de
-                  PC</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="Productos.html" tabindex="-1" aria-disabled="true">Productos</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="Contacto.html" tabindex="-1" aria-disabled="true">Consultanos</a>
-              </li>
-            </ul>
+<body>  
+  
+  <div class="fixed-top ">
+      <!--NAVBAR-->
+      <div class="collapse" id="navbarToggleExternalContent">
+        <div class=" p-0">
+          <div class="card " style="background: black;opacity: 0.5;">
+            <div class="card-header ">
+              <ul>
+                <li class="nav-item ">
+                  <a class="nav-link " href="Index.html">Pagina principal</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="Sistemas.html">Desarrollo de sistemas y paginas WEB</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="ReparacionPc.html" tabindex="-1" aria-disabled="true">Servicio tecnico de PC</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="Productos.html" tabindex="-1" aria-disabled="true">Productos</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="Contacto.html" tabindex="-1" aria-disabled="true">Consultanos</a>
+                </li>
+              </ul>
+            </div>
           </div>
         </div>
       </div>
-    </div>
 
     <nav class="navbar navbar-dark ">
       <span style="color: white; margin-left: 450px;">
@@ -53,16 +54,15 @@
       </span>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent"
         aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation"
-        style="background:black;border: white solid 2px;margin-right: 450px;">
+        style="background:transparent;margin-right: 450px;border-color:transparent;">
         <span class="navbar-toggler-icon"></span>
       </button>
     </nav>
   </div>
   <!--CIerre del NAVBAR-->
 
-  
 <!--CARRUSEL-->
-  <div class="conteiner p-0">
+  <div class="conteiner ">
     <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
       <ol class="carousel-indicators ">
         <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
@@ -71,13 +71,13 @@
       </ol>
       <div class="carousel-inner">
         <div class="carousel-item active ">
-          <img src="images/Carrusel1.jpg" class="d-block" alt="...">
+          <img src="images/Index/Carrusel1.jpg" class="d-block" alt="...">
         </div>
         <div class="carousel-item">
-          <img src="images/Carrusel2.png" class="d-block" alt="...">
+          <img src="images/Index/Carrusel2.jpg" class="d-block" alt="...">
         </div>
         <div class="carousel-item">
-          <img src="images/Carrusel3.jpg" class="d-block" alt="...">
+          <img src="images/Index/Carrusel3.jpeg" class="d-block" alt="...">
         </div>
       </div>
       <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
@@ -91,15 +91,26 @@
     </div>
   </div>
 
+  <!--BOTONES FLOTANTES-->
+  <section id="BotFlotantes" class="container">
+    <div class="container BotonesFlotantes" >
+      <div class="btn-group-vertical ">
+        <button type="button" class="btn btn-primary">Apple</button>
+        <button type="button" class="btn btn-primary">Samsung</button>
+        <button type="button" class="btn btn-primary">Sony</button>
+      </div>
+    </div>
+  </section>
+
 <!-- las cards-->
 <section id="about" class="container ">
   <div class="row EspacioEntreCards ">
     <div class="col-3">
       <div class="card EstiloCards">
-        <img src="images/programación-html-y-css.jpg" class="card-img-top" alt="...">
+        <img src="images/Index/CardDisWeb.jpg" class="card-img-top" alt="...">
         <div class="card-body">
           <a href="Sistemas.html">
-            <h5 class="card-title text-center">Paginas WEB</h5>
+            <h5 class="card-title text-center">Diseño WEB</h5>
           </a>
           <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
             content.</p>
@@ -108,7 +119,7 @@
     </div>
     <div class="col-3 ">
       <div class="card EstiloCards">
-        <img src="images/Foto4.jpg" class="card-img-top" alt="...">
+        <img src="images/Index/CardRepPc.jpg" class="card-img-top" alt="...">
         <div class="card-body">
           <a href="ReparacionPc.html">
             <h5 class="card-title text-center">Servicio tecnico</h5>
@@ -121,7 +132,7 @@
     </div>
     <div class="col-3 ">
       <div class="card EstiloCards" >
-        <img src="images/Productos.jpg" class="card-img-top" alt="...">
+        <img src="images/Index/CardVenProd.jpg" class="card-img-top" alt="...">
         <div class="card-body">
           <a href="Productos.html">
             <h5 class="card-title text-center">Venta de Productos</h5>
@@ -134,7 +145,7 @@
     </div>
     <div class="col-3 ">
       <div class="card EstiloCards" >
-        <img src="images/emailCeleste.jpg" class="card-img-top" alt="...">
+        <img src="images/Index/CardEmail.jpg" class="card-img-top" alt="...">
         <div class="card-body">
           <a href="Contacto.html">
             <h5 class="card-title text-center">Envianos tu Consultas</h5>
