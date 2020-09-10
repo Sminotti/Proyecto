@@ -1,0 +1,98 @@
+ 
+ body{        
+         background-image: url(../images/FondoContacto.jpg);
+         background-size: cover; /* se cambia de tamaño segun el espacio que tenga*/
+        
+      }
+     
+   .col{  
+      margin-top: 40px;
+      display: flex;
+      flex-direction: column;/*acomoda los elementos por columna / uno abajo del otro*/
+      color: red;
+      align-items:center;/* todos los elementos van al princiio*/
+   }
+   
+   .row{
+      padding-top: 20px; 
+   } 
+   
+   .pt{
+      padding-top: 10px; /* te separa del borde superior */
+  }
+  
+  .EstiloImput{   
+    font-size: 20px;
+    margin:  .4rem;
+  }
+  .EstiloLabel1_2c{
+    margin-left: 260px;
+  }   
+  .EstiloLabel_1c{
+     min-width: 240px;
+     display: inline-block;
+     font-size: 20px;
+     border: 3px solid #535454;
+     background-color: #F8E5D1;  
+     border-top-left-radius: 10px ;
+     border-bottom-left-radius: 10px ;
+     height: 23px;
+ }
+
+
+  a:link {
+    text-decoration: none;
+  }
+  
+  a:visited {
+    text-decoration: none;
+  }
+  
+  a:active {
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: none;
+    cursor: pointer;
+  }
+  .icon {
+    font-size: 70px;
+  }
+  
+  .instagram {
+    color: brown;
+  }
+  
+  .linkedin {
+    color: white;
+  }
+  
+  .facebook{
+      color:white;
+  }
+
+  .nav{
+  
+    display: flex;
+    justify-content: center;
+    opacity: 0.9;
+  }
+  
+
+  /* box-sizing: border-box;/* fija el alto y ancho de la caja ,independiente mente de lo de adentrop*/
+   /* si tiene una imagen dentro y con un padding le decimos que tenga un espacio de 50px,la caja;
+   seguiria teniendo el mismo tamaño pero la imagen se achica
+   padding: 30px;*/
+   /*flex-direction: row-reverse;/* ordena de la ultima fila a la primera*/
+   /*flex-direction: column-reverse;/* ordena de la ultima columna a la primera*/
+  /*flex-wrap: wrap;/* aca si el contenido es mas grande lo acomoda hacia abajo*/
+   /*justify-content: space-between;*/
+   /*alinear verticalmente*/
+   /*align-items: center;
+   /*align-items: stretch;/* le da un alto que es igual al de la caja padre*/
+   /*le da sombra a la caja*/
+   /*box-shadow: 10px 10px 30px -4px red rgba(0, 0, 0, 1);*/
+   /*rotate*/ /*se usa para rotar el elemento*/
+   /* order, se usa para mover elementos hijos dentro de la caja padre*/
+   /* como puse numeral #,debo poner id="caja1"*/

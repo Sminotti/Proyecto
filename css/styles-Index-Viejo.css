@@ -1,0 +1,57 @@
+body{
+    background: #E5E1DD;
+    /*background-image: url("../images/FondoIndex.jpg");*/
+    background-position: center center;
+    background-size: cover;/* ajusta la imagen a la pantalla automaticamente*/
+}
+
+
+.color-tomato{ /* se coloca justo donde lo necesito */
+    color: tomato;
+}
+.border{
+    border: 25px dotted violet;
+}
+
+.pt{
+    padding-top: 20px; /* te separa 20px del borde superior */
+}
+/* padding-botton (inferior) */
+
+.images{
+    
+    width: 150px;
+    height: 200px;
+}
+
+h1,h2{ 
+    font-family: fantasy; /* toma las caracteristicas del de abajo porque es lo ultimo que lee */
+    background: #00ee33;
+    font-size: 120; 
+    color:brown; 
+}
+
+
+h1 {
+    font-family: ;
+    background: black; /* fondo de la caja del h1*/
+    font-size: 50px;/* tamaño de la tipografia*/
+    text-align: center;/* centra el texto*/
+    text-decoration: underline;/* subraya,tacha,ect el texto*/
+    border: 6px solid seagreen;/*formato resumido-mejor*/
+    border-radius: 50px; /* redondea las puntas*/
+    width: 60%;  /* medida de acho ,conviene siempre en porcentage,porque se adapta al tamaño de la pantalla*/
+    height: 10vh;/*medida del alto ,siempre en vh=%*/ 
+    margin: auto;/* centra la caja que tiene el texto dentro*/
+   }
+
+P{
+    text-align: justify; /* se ajusta a la pantalla */
+}
+
+
+  
+  
+
+
+

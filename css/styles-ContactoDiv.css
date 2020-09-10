@@ -1,0 +1,81 @@
+body{        
+    background-image: url(../images/FondoContacto.jpg);
+    background-size: cover; /* se cambia de tamaño segun el espacio que tenga*/
+ }
+
+/* clase*/ /* parecido a las var-variables */
+
+
+
+ .EstiloImput{   
+    font-size: 20px;
+}
+.EstiloLabel1_2c{
+    margin-left: 260px;  
+}
+
+.EstiloLabel_1c{
+    min-width: 240px;
+    display: inline-block;
+    font-size: 20px;
+    border: 3px solid #535454;
+    background-color: #F8E5D1;  
+    border-top-left-radius: 10px ;
+    border-bottom-left-radius: 10px ;
+    height: 23px;
+}
+.EstiloCajas{
+    margin-left: 100px;
+    width: 935px;
+    border: 6px solid #535454;
+    background-color: #BCC2C2;
+    border-top-left-radius: 10px ;
+    border-bottom-left-radius: 10px ;
+}
+.AltoSubCajas{
+    height: 50px;
+}
+
+.pt{
+    padding-top: 5px; /* te separa del borde superior */
+}
+/* padding-botton (inferior) */
+
+h1 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background: #BCC2C2; /* fondo de la caja del h1*/
+    font-size: 30px;/* tamaño de la tipografia*/
+    text-align: center;/* centra el texto*/
+    text-decoration: underline;/* subraya,tacha,ect el texto*/
+    border: 1px solid #BF071E ;/*formato resumido-mejor*/
+    width: 50%;  /* medida de acho ,conviene siempre en porcentage,porque se adapta al tamaño de la pantalla*/
+    height: 10vh;/*medida del alto ,siempre en vh=%*/   
+ 
+   }
+
+P{
+    text-align: justify; /* se ajusta a la pantalla */
+}
+
+
+/*fieldset {
+    min-width: 100px;
+    display: inline-block;
+}*/
+
+/*fieldset input{
+    float: right;
+}*/
+
+legend {
+    background-color: #000;
+    color: #fff;
+    padding: 3px 6px;
+}
+
+/*.output { no se para que sirve
+    font: 1rem 'Fira Sans', sans-serif;
+}*/
+
+input { margin: .4rem;} /* separacion entre input*/
+
