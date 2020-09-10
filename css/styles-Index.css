@@ -5,10 +5,6 @@ body{
     background-size: cover;/* ajusta la imagen a la pantalla automaticamente*/
 }
 
-.FontNavInterna{
-    font-family: ;
-}
-
 .EspacioEntreCards{
     
     position: absolute;
@@ -25,8 +21,10 @@ body{
     color: #998561;
 }
 .BotonesFlotantes {
+    z-index: 1;
+    padding: 0px;
     position: absolute;
-    left: 10px;
+    left: 0px;
     top: 250px;
 
 }
