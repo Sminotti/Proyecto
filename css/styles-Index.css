@@ -21,12 +21,13 @@ body{
     color: #998561;
 }
 .BotonesFlotantes {
+
     z-index: 1;
     padding: 0px;
     position: absolute;
     left: 0px;
     top: 250px;
-
+    
 }
 
 .float{
