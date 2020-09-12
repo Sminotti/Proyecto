@@ -1,6 +1,5 @@
 body{
     background: #E5E1DD;
-    /*background-image: url("../images/FondoIndex.jpg");*/
     background-position: center center;
     background-size: cover;/* ajusta la imagen a la pantalla automaticamente*/
 }
@@ -8,27 +7,51 @@ body{
 .EspacioEntreCards{
     
     position: absolute;
-    left: 300px;
+    left: 200px;
     top: 600px;
 }
+
 .EstiloCards{
-    min-height: 400px;
-    width: 18rem;
+    /*min-height: 400px;*/
+    width: 22rem;
     margin-bottom:10px ;
+    background: transparent;
 }
 
 .ColorFonts{
     color: #998561;
 }
 .BotonesFlotantes {
-
-    z-index: 1;
+  z-index: 1;
     padding: 0px;
     position: absolute;
     left: 0px;
     top: 250px;
+    display: flex;
+    flex-direction: column;
+    width: 50px;
+    height: 50px;
     
 }
+
+.ColorBotFlotante{
+  color: white;
+  background-color: #444cd1;
+  border-color: transparent;
+  margin-top: 0px;
+  margin-bottom: 5px;
+ 
+}
+
+button:hover{
+  transition: 1s;
+  width: 4rem;
+  -webkit-transition: 1s;
+  -moz-transition: 1s;
+  -ms-transition: 1s;
+  -o-transition: 1s;
+}
+
 
 .float{
 	position:fixed;
@@ -54,3 +77,9 @@ body{
 	margin-top:16px;
 }
 
+
+
+.TamañoImgCarr{
+  width: 100%;
+  height: auto;
+}

@@ -38,3 +38,9 @@ body{
 	margin-top:16px;
 }
 
+.ColorBotFlotante{
+	background-color: #444cd1;
+	border-color: transparent;
+	margin-top: 0px;
+	margin-bottom: 5px;
+  }

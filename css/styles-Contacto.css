@@ -47,11 +47,18 @@ text-anchor: middle;
     font-size:30px;
     box-shadow: 2px 2px 3px black;
     position: absolute;
-    left: 595px;
-    top: 592px;
+    left: 15px;
+    top: 530px;
     border-radius: 5px;
     -webkit-border-radius: 5px;
     -moz-border-radius: 5px;
     -ms-border-radius: 5px;
     -o-border-radius: 5px;
+}
+
+.ColorBotFlotante{
+  background-color: #444cd1;
+  border-color: transparent;
+  margin-top: 0px;
+  margin-bottom: 5px;
 }
