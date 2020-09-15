@@ -10,13 +10,35 @@ text-anchor: middle;
  }
 
  .BotonesFlotantes {
+	z-index: 1;
+	  padding: 0px;
+	  position: absolute;
+	  left: 0px;
+	  top: 250px;
+	  display: flex;
+	  flex-direction: column;  
+	  
+  }
+  
+  .ColorBotFlotante{
+	color: white;
+	background-color: #444cd1;
+	border-color: transparent;
+	margin-top: 0px;
+	margin-bottom: 5px;
+	width: 50px;
+	height: 50px;
+	transition: 1s;
+   
+  }
 
-    z-index: 1;
-    padding: 0px;
-    position: absolute;
-    left: 0px;
-    top: 250px;
-    
+button:hover{
+  transition: 1s;
+  width: 4rem;
+  -webkit-transition: 1s;
+  -moz-transition: 1s;
+  -ms-transition: 1s;
+  -o-transition: 1s;
 }
 
 .float{
@@ -56,9 +78,3 @@ text-anchor: middle;
     -o-border-radius: 5px;
 }
 
-.ColorBotFlotante{
-  background-color: #444cd1;
-  border-color: transparent;
-  margin-top: 0px;
-  margin-bottom: 5px;
-}
