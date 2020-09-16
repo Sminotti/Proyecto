@@ -16,7 +16,8 @@ text-anchor: middle;
 	  left: 0px;
 	  top: 250px;
 	  display: flex;
-	  flex-direction: column;  
+	  flex-direction: column; 
+	  width: auto; 
 	  
   }
   
@@ -66,6 +67,7 @@ button:hover{
 }
 
 .EstilobotonEnviar{
+	
     font-size:30px;
     box-shadow: 2px 2px 3px black;
     position: absolute;
