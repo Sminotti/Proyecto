@@ -9,7 +9,7 @@ body{
 	  padding: 0px;
 	  position: absolute;
 	  left: 0px;
-	  top: 250px;
+	  top: 30%;
 	  display: flex;
 	  flex-direction: column;
 	  width: auto;
@@ -38,6 +38,10 @@ body{
 	-ms-transition: .05s;
 	-o-transition: .05s;
 }
+.EstiloRedesSociales{
+	color: white;
+	margin: auto auto auto auto;
+}	
 /*BOTON FLOTANTE WHATSAP*/
 .float{
 	position:fixed;
