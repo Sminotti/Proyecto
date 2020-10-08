@@ -1,7 +1,7 @@
 body{        
     background-image: url(../images/VentaProd/aDQdXDw1.png);
-    background-size: cover; /* se cambia de tamaño segun el espacio que tenga*/
-   
+	
+	background-size: cover; /* se cambia de tamaño segun el espacio que tenga*/
  }
 
  .BotonesFlotantes {

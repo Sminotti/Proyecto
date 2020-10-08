@@ -31,7 +31,7 @@
 <meta name="msapplication-TileImage" content="ms-icon-144x144.png">
 <meta name="theme-color" content="#ffffff">
 <!--LOGO-->
-  <title >MSM Desarrollos Iformaticos</title>
+  <title >PRUEBA CONTACTO</title>
 </head>
 
 <body>
@@ -85,16 +85,12 @@
   <!--CIerre del NAVBAR-->
 </header>
 
-
-<section id="contact" class=" PositionForm"  >
+<section id="contact" class="container mt-5" >
     <!-- Form-group-->
-       
-    <form action="" method="POST" >
-      <fieldset > 
-        <legend>SOLICITUD DE PRESUPUESTO</legend>  
-      <div class="row justify-content-center mt-5" >
+
+    <form action="" method="POST">
+      <div class="row justify-content-center mt-5">
 <!--PRIMERA COLUMNA IZQUIERDA-->
- 
         <div class="col-6 col-xl-6 col-lg-6 col-md-6 col-xs-6 mt-6">
           <div class="form-group">
             <label  class="EstiloLabel" for="nombre" name="nombre">Nombre <span class="text-danger">*</span></label>
@@ -110,49 +106,22 @@
               <span class="text-danger">*</span></label>
             <input type="number" id="CodArea" class="form-control" placeholder="011" name="CodArea" required />
           </div>
-        
+
           <!--sub columnas / columna izquierda-->
-          <div class="row">
-            <div class="col-6 col-xl-6 col-lg-6 col-md-6 col-xs-12 mt-12">
-              <div class="form-group">
-                <label class="EstiloLabel" for="Paises" name="Paises">Pais</label>
-                <!--<select name="Paises" id="Paises">
-                  <option selected disabled>Elije tu pais</option>
-                  <option value="Arg">Argentina</option>
-                  <option value="Bra">Brasil</option>
-                  <option value="Uru">Uruguay</option>
-                  <option value="Otro">Otro</option>
-                </select>-->
-                <input type="text" id="Pais" class="form-control" placeholder="Pais" name="Pais"/>
-              </div>
-            </div>
-            <div class="col-6 col-xl-6 col-lg-6 col-md-6 col-xs-12 mt-12">
-              <div class="form-group">
-                <label class="EstiloLabel" for="Provincia" name="Provincia">Provincia</label>
-                <!--<select name="Provin cia" id="Provin cia">
-                  <option selected disabled>Elija tu Ciudad</option>
-                  <option value="Bue">Buenos Aires</option>
-                  <option value="Juj">Jujuy</option>
-                  <option value="Cat">Catamarca</option>
-                  <option value="Otro">Otro</option>
-                </select>-->
-                <input type="text" id="Provincia-Estado" class="form-control" placeholder="Provincia" name="Provincia-Estado"/>
-              </div>
-            </div>
-          </div>
+         
           <!--cierre sub fila-->
+
+
+
           <div class="form-group">
-            <label class="EstiloLabel" for="FecNac" name="FecNac">F. Nacimiento</label>
+            <label class="EstiloLabel" for="FecNac" name="FecNac">Fecha de nacimiento</label>
             <input type="date" id="FecNac" class="form-control" placeholder="" name="FecNac" required />
-            <br>
-            <br>
-            </div>
-          <div>        
-            <button type="submit" class="btn btn-primary EstiloButton" style="bottom: 0px;">Enviar</button>
           </div>
-    
+          <label class="EstiloLabel" class="mt-3" for="comentario" name="comentario">Ingrese su comentario <span
+              class="text-danger">*</span></label>
         </div>
         <!--cierre columna izquierda-->
+
 
 <!--SEGUNDA COLUMNA DERECHA-->
         <div class="col-6 col-xl-6 col-lg-6 col-md-6 col-xs-6 mt-6">  
@@ -172,44 +141,72 @@
                 class="text-danger">*</span></label>
             <input type="tel" id="numeroCel" class="form-control" placeholder="1234-5678" name="numeroCel" required />
           </div>
-          <div class="row">
-            <div class="col-6 col-xl-6 col-lg-6 col-md-6 col-xs-12 mt-12">
-              <div class="form-group">
-                <label class="EstiloLabel" for="Localidad" name="Localidad">Localidad</span></label>
-                <!--<select name="Localidad" id="Localidad">
-                  <option selected disabled>Elije tu Localidad</option>
-                  <option value="Ave">Avellaneda</option>
-                  <option value="Alm">almagro</option>
-                  <option value="CABA">CABA</option>
-                  <option value="Otro">Otro</option>
-                </select>-->
-                <input type="text" id="Localidad" class="form-control" placeholder="Localidad" name="Localidad" />
-              </div>
-            </div>
-            <div class="col-6 col-xl-6 col-lg-6 col-md-6 col-xs-12 mt-12">
-              <div class="form-group">
-                <label class="EstiloLabel" for="CodPostal" name="CodPostal">C.postal</label>
-                <input type="number" id="CodPostal" class="form-control" placeholder="1234" name="CodPostal" required />
-              </div>
-            </div>
-          </div>
+          <!--Sub columnas / columnas derechas-->
+
           <!--cierre sub fila-->
+
           <div class="form-group">
             <label class="EstiloLabel" for="ImgPerfil" name="ImgPerfil">Elija foto de perfil</label>
             <input type="file" id="ImgPerfil" class="form-control" name="ImgPerfil" required />
           </div>
-          <div class="form-group">
-            <label class="EstiloLabel" class="mt-3" for="comentario" name="comentario">Comentarios</label>
-            <textarea class="form-control EstiloTextArea" style="border-radius: 5px" name="comentario" id="comentario" ></textarea>
-          </div>
+          <textarea class="form-control EstiloTextArea" style="border-radius: 5px" name="comentario" id="comentario" ></textarea>
         </div>
         <!--cierre columna derecha-->
       </div>
-         <!--cierre fila general-->
-    </fieldset>
+      <!--cierre fila general-->
+
+      <div class="row ">
+        <div class="col-3 col-xl-3 col-lg-3 col-md-3 col-xs-12 mt-12">
+          <div class="form-group">
+            <label class="EstiloLabel" for="Paises" name="Paises">Pais</label>
+            <select name="Paises" id="Paises">
+              <option selected disabled>Elije tu pais</option>
+              <!--se ve pero aparece desabilitado-->
+              <option value="Arg">Argentina</option>
+              <option value="Bra">Brasil</option>
+              <option value="Uru">Uruguay</option>
+              <option value="Otro">Otro</option>
+            </select>
+          </div>
+        </div>
+        <div class="col-3 col-xl-3 col-lg-3 col-md-3 col-xs-12 mt-12">
+          <div class="form-group">
+            <label class="EstiloLabel" for="Provincia" name="Provincia">Provincia</label>
+            <select name="Provin cia" id="Provin cia">
+              <option selected disabled>Elija tu Ciudad</option>
+              <!--se ve pero aparece desabilitado-->
+              <option value="Bue">Buenos Aires</option>
+              <option value="Juj">Jujuy</option>
+              <option value="Cat">Catamarca</option>
+              <option value="Otro">Otro</option>
+            </select>
+          </div>
+        </div>
+        <div class="col-3 col-xl-3 col-lg-3 col-md-3 col-xs-12 mt-12">
+          <div class="form-group">
+            <label class="EstiloLabel" for="Localidad" name="Localidad">Localidad</span></label>
+            <select name="Localidad" id="Localidad">
+              <option selected disabled>Elije tu Localidad</option>
+              <!--se ve pero aparece desabilitado-->
+              <option value="Ave">Avellaneda</option>
+              <option value="Alm">almagro</option>
+              <option value="CABA">CABA</option>
+              <option value="Otro">Otro</option>
+            </select>
+          </div>
+        </div>
+        <div class="col-3 col-xl-3 col-lg-3 col-md-3 col-xs-12 mt-12">
+          <div class="form-group">
+            <!--<label class="EstiloLabel" for="CodPostal" name="CodPostal">Cod postal</label>-->
+              <input type="number" id="CodPostal" class="form-control" placeholder="Codigo postal" name="CodPostal" required />
+          </div>
+        </div>
+    
+    </div>
+      <button type="submit" class="btn btn-primary">Enviar</button>
     </form>
- 
 </section>
+
 
 
 <!--BOTON MESSENGER-->
