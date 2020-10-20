@@ -6,7 +6,7 @@ body{
  }
 
  .EstiloLabel{
-color: white;
+color: red;
 text-anchor: middle;
  }
  
@@ -92,10 +92,8 @@ text-anchor: middle;
 }
 .PositionForm{
 	display: flex;
-	align-items: flex-start;
-	margin-left: 10px;
+	margin-left: 1px;
 	margin-top: 10%;
-
 }
 
 fieldset {

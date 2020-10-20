@@ -47,6 +47,33 @@ body{
 	display: flex;
 	flex-direction: column; 
   }
+.LabelBotFlotantes {
+	position: fixed;
+	top: 30%; 
+	z-index: 1;
+	padding: 0px;
+	left: 55px;	
+	width: auto; 
+	display: flex;
+	flex-direction: column; 
+  }
+  .EstiloLabelBotFlotantes{
+	width: auto;
+	display: inline-block;
+	color: blanchedalmond;
+	border: 1px solid white;
+	background-color: black;
+	height: 23px;
+	margin-top: 10px;
+	margin-bottom: 25px;
+	opacity: 0;
+	transition: 0.5s;
+	-webkit-transition: 0.5s;
+	-moz-transition: 0.5s;
+	-ms-transition: 0.5s;
+	-o-transition: 0.5s;
+}
+  
 .ColorBotFlotante{
 	color: white;
 	background-color: #444cd1;
